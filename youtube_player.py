@@ -22,7 +22,7 @@ def search_and_play(api_key, query):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Search and play YouTube videos.")
-    parser.add_argument("api_key", help="AIzaSyAfP68-9zW-BBVthvazYC3dt8QYGKSaSug")
+    parser.add_argument("api_key", help="USE_YOUR_API_KEY")
     parser.add_argument("query", help="Search query for the YouTube video.")
     args = parser.parse_args()
 
